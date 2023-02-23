@@ -1,22 +1,51 @@
 ---
-
-
-
-
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-</head>
-<body>
-    <div class="">
-
+  </head>
+  <body>
+    <div class="flex items-center">
+      <span
+        class="text-6xl text-remove-bounce animate-bounce text-orange-600 font-extrabold"
+        >A</span
+      >
+      <span
+        class="text-6xl text-remove-bounce animate-bounce text-orange-600 font-extrabold"
+        >P</span
+      >
+      <span
+        class="text-6xl text-remove-bounce animate-bounce  font-extrabold"
+        >R</span
+      >
+      <span
+        class="text-6xl text-remove-bounce animate-bounce text-orange-600 font-extrabold"
+        >E</span
+      >
+      <span
+        class="text-6xl text-remove-bounce animate-bounce  font-extrabold"
+        >N</span
+      >
+      <span
+        class="text-6xl text-remove-bounce animate-bounce text-orange-600 font-extrabold"
+        >D</span
+      >
+      <span
+        class="text-6xl text- text-remove-bounce animate-bounce  font-extrabold"
+        >A</span
+      >
     </div>
-</body>
+  </body>
 </html>
+<script>
+  setTimeout(() => {
+    console.log("Text remove Bounce");
+    const elements = document.querySelectorAll(".text-remove-bounce");
+    elements.forEach((element) => element.classList.remove("animate-bounce"));
+  }, 4000);
+</script>
