@@ -1,4 +1,5 @@
 ---
+
 ---
 
 <!DOCTYPE html>
@@ -10,7 +11,8 @@
     <title>Login</title>
   </head>
   <body>
-    <div class="flex items-center">
+    <div class="flex justify-center items-center flex-col">
+    <div class="flex mt-20 flex-row">
       <span
         class="text-6xl text-remove-bounce animate-bounce text-orange-600 font-extrabold"
         >A</span
@@ -36,13 +38,19 @@
         >D</span
       >
       <span
-        class="text-6xl text- text-remove-bounce animate-bounce  font-extrabold"
+        class="text-6xl text-remove-bounce animate-bounce  font-extrabold"
         >A</span
       >
     </div>
+    <br>
+    <input class="bg-gray-200  w-44 h-10 rounded-lg sm:w-80" />
+
+
+
+    </div>
   </body>
 </html>
-<script>
+<script type="module">
   setTimeout(() => {
     console.log("Text remove Bounce");
     const elements = document.querySelectorAll(".text-remove-bounce");
